@@ -1,0 +1,340 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaC2XqS9XUHnyf6NCu5_TNCQvJq-GBatwA_g&usqp=CAU);
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto 0px;
+}
+
+.titulos {
+  display: block;
+  margin: auto 0%;
+}
+
+.nav-bar ul {
+  margin: auto 0%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.imagen-personajes {
+  width: 220px;
+  height: 128px;
+  border-radius: 8px;
+  padding: 0px;
+}
+
+.imagen-logo {
+  width: 380px;
+  margin: 0px;
+  padding: 0px;
+
+
+
+}
+
+/*Display Flex*/
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  padding: 15px;
+  margin: 20px;
+  background-color: rgba(233, 229, 16, 0.938);
+  border: 3px solid black;
+}
+
+header nav ul li a {
+  color: rgb(6, 170, 235);
+  font-family: cursive;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+/*Sinopsis*/
+.contenedor {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* margin ccontiene eje y eje x*/
+
+.Sinopsis h2 {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: rgba(41, 191, 236, 0.938);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 3px solid black;
+  font-size: 25px;
+}
+
+
+
+.sinopsis {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  justify-content: space-between;
+  text-align: center;
+
+
+}
+
+.imagen-sinopsis {
+  height: 160px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+
+.contenedor p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.5;
+
+}
+
+
+
+
+
+/*Personajes*/
+.container {
+  background-image: url(https://cdn.pixabay.com/photo/2016/06/23/16/07/background-1475670_1280.jpg);
+  padding: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Personajes h2 {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: rgba(41, 191, 236, 0.938);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 3px solid black;
+  font-size: 25px;
+
+}
+
+/*Estilos para items de grid*/
+.grid-item {
+  background: linear-gradient(to bottom, #11dceb, #3358d3);
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  width: 180px;
+  margin: 10px;
+  border-color: 1px solid black;
+
+}
+
+.grid-item img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.grid-item h3 {
+  padding-bottom: 10px;
+
+}
+
+
+.contenedor1 {
+  display: flex;
+}
+
+.personajes img {
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/*Contenedor1 HBO*/
+.miraLaSerie h2 {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: rgba(41, 191, 236, 0.938);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 3px solid black;
+  font-size: 25px;
+}
+
+.contenedor1 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaC2XqS9XUHnyf6NCu5_TNCQvJq-GBatwA_g&usqp=CAU);
+}
+
+.contenedor1 .logo-hbo {
+  height: 150px;
+  display: flex;
+  width: 150px;
+  float: left;
+  padding: 5px;
+  margin: 10px;
+}
+
+.contenedor1 p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 30px;
+  margin: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+/*Contenedor2 ¿Quién soy?*/
+.quienSoy h2 {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: rgba(41, 191, 236, 0.938);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 3px solid black;
+  font-size: 25px;
+}
+
+.contenedor2 {
+  display: flex;
+}
+
+.contenedor2 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaC2XqS9XUHnyf6NCu5_TNCQvJq-GBatwA_g&usqp=CAU);
+}
+
+.contenedor2 p {
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  margin: 30px;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+/*Comienzo estilos footer*/
+
+footer {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaC2XqS9XUHnyf6NCu5_TNCQvJq-GBatwA_g&usqp=CAU);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer div nav ul {
+  list-style: none;
+  align-items: center;
+}
+
+footer div nav ul li {
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(221, 224, 35);
+  border: 3px solid black;
+  font-size: 15px;
+  display: flex;
+}
+
+footer div nav ul li {
+  color: rgb(9, 168, 168);
+  font-family: cursive;
+}
+
+footer div nav ul li svg {
+  color: black;
+}
+
+@media (max-width: 576px) {
+
+  header {
+    display: block;
+    align-items: center;
+
+  }
+
+  .titulos {
+    margin: auto 30px;
+    padding: 0px;
+
+  }
+
+  .nav-bar ul li {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .nav-bar ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin: auto 5px;
+  }
+
+  .imagen-logo {
+    width: 250px;
+    margin: auto -15px;
+  }
+
+  div .contenedor {
+    width: 200px;
+    height: 100px;
+  }
+
+  .sinopsis {
+    display: block;
+  }
+
+  .miraLaSerie {
+    display: block;
+  }
+
+  .contenedor,
+  .contenedor1,
+  .contenedor2,
+  footer {
+    display: block;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .grid-item {
+    margin: auto 40px;
+    margin-top: 10px;
+  }
+
+  .imagen-sinopsis {
+    width: 220px;
+    height: 120px;
+    margin: auto 10px;
+  }
+
+
+
+}
